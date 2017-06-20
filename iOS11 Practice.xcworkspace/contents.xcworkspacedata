@@ -4,4 +4,7 @@
    <FileRef
       location = "group:CoreML/ImagePredictor.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Layout/Layout.xcodeproj">
+   </FileRef>
 </Workspace>
