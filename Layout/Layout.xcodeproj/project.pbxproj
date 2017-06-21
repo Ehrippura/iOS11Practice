@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B04AAEE71EFA6255003AFC4E /* SafeAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04AAEE61EFA6255003AFC4E /* SafeAreaViewController.swift */; };
 		B04B36081EFA0CDF0018D6B5 /* LayoutMarginsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04B36071EFA0CDF0018D6B5 /* LayoutMarginsViewController.swift */; };
 		C7A2AE4C1EF94F880069C98C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A2AE4B1EF94F880069C98C /* AppDelegate.swift */; };
 		C7A2AE4E1EF94F880069C98C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A2AE4D1EF94F880069C98C /* MenuViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B04AAEE61EFA6255003AFC4E /* SafeAreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaViewController.swift; sourceTree = "<group>"; };
 		B04B36071EFA0CDF0018D6B5 /* LayoutMarginsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutMarginsViewController.swift; sourceTree = "<group>"; };
 		C7A2AE481EF94F880069C98C /* Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Layout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A2AE4B1EF94F880069C98C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				C7A2AE4D1EF94F880069C98C /* MenuViewController.swift */,
 				C7A2AE5D1EF9533A0069C98C /* LargeTitleViewController.swift */,
 				B04B36071EFA0CDF0018D6B5 /* LayoutMarginsViewController.swift */,
+				B04AAEE61EFA6255003AFC4E /* SafeAreaViewController.swift */,
 				C7A2AE4F1EF94F880069C98C /* Main.storyboard */,
 				C7A2AE521EF94F880069C98C /* Assets.xcassets */,
 				C7A2AE541EF94F880069C98C /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				C7A2AE4C1EF94F880069C98C /* AppDelegate.swift in Sources */,
 				B04B36081EFA0CDF0018D6B5 /* LayoutMarginsViewController.swift in Sources */,
 				C7A2AE5E1EF9533A0069C98C /* LargeTitleViewController.swift in Sources */,
+				B04AAEE71EFA6255003AFC4E /* SafeAreaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

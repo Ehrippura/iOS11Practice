@@ -1,5 +1,5 @@
 //
-//  LayoutMarginsViewController.swift
+//  SafeAreaViewController.swift
 //  Layout
 //
 //  Created by Wayne Lin on 2017/6/21.
@@ -8,26 +8,28 @@
 
 import UIKit
 
-class LayoutMarginsViewController: UIViewController {
+class SafeAreaViewController: UIViewController {
 
     @IBOutlet weak var subview: UIView!
+    @IBOutlet weak var infoLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.directionalLayoutMargins = NSDirectionalEdgeInsets(top: 0,
-                                                                leading: 0,
-                                                                bottom: 0,
-                                                                trailing: 0)
+        navigationController?.isToolbarHidden = false
 
-        // uncommand this line
-        // viewRespectsSystemMinimumLayoutMargins = false
+        let margin = view.safeAreaLayoutGuide
 
-        let margin = view.layoutMarginsGuide
         subview.topAnchor.constraint(equalTo: margin.topAnchor).isActive = true
         subview.bottomAnchor.constraint(equalTo: margin.bottomAnchor).isActive = true
         subview.leadingAnchor.constraint(equalTo: margin.leadingAnchor).isActive = true
         subview.trailingAnchor.constraint(equalTo: margin.trailingAnchor).isActive = true
+
+
+    }
+
+    override func viewSafeAreaInsetsDidChange() {
+        super.viewSafeAreaInsetsDidChange()
+        infoLabel.text = "Top Inset: \(view.safeAreaInsets.top)"
     }
 }
-
